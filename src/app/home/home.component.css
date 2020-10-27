@@ -1,0 +1,35 @@
+
+
+/** Home Page **/
+
+.home-image{
+ 
+    position: absolute;
+    top: 226px;
+    left: 579px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 2px dotted #415aef;
+    box-shadow: 0px 0px 0px 9px #fff inset;
+  }
+  
+  .home-image-center{
+    text-align: center;
+    position: relative;
+     
+  }
+  .home-image-center img {
+    width: 191px;
+  }
+  
+  
+  .home-image h3{
+    position: absolute;
+    bottom: 206px;
+    left: 29%;
+    font-size: 16px;
+    color: #565656;
+    font-weight: 500;
+  
+  }
