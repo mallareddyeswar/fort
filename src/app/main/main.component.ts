@@ -10,18 +10,21 @@ import { Router } from '@angular/router';
 
 })
 export class MainComponent implements OnInit {
- 
+ zoomImg:string;
   constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
-  onMainFade(event){
-    event.srcElement.classList.add("fade");
-    setTimeout(()=>{
-      this.router.navigate(['home']);
-    },1800)
-
+  oncssChange(event){
+   
+    event.srcElement.classList.add("zoom-Img");
+    event.srcElement.classList.add("backg");
+    event.srcElement.classList.add("borderdashed");
+  
+    setTimeout(()=>{                       
+      this.router.navigate(['/home'])
+ }, 2600);
   }
 
 }

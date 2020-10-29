@@ -1,15 +1,18 @@
 <div class="col-md-4 offset-md-4 " >
-    <a  (click)="onMainFade($event)"  >
-    <div class="landing-image ">
-    <div class="landing-image-center">
-    <img src="assets/img/FORT - assessment - logo.svg"/>
-    
-    </div>
-    
-    </div>
+    <div class="circle" [ngClass]="['borderdashed']">
+       
+            <div class="landing-image " [ngClass]="['backg']" (click)="oncssChange($event)" [ngClass]="[zoomImg]" >
+                <div class="landing-image-center"  >
+                <img src="assets/img/FORT - assessment - logo.svg"/>
+                
+                </div>
+                
+                </div>
+        
    
-    </a>
-    <div class="above-text">
+   
+</div>
+    <div class="above-text"  [ngClass]="['backg']">
         <h3>click above</h3>
     </div>
    
